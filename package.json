@@ -4,6 +4,9 @@
     "version": "0.0.0",
     "author": "Régis Pinheiro",
     "type": "module",
+    "scripts": {
+        "dev": "node --watch ./server"
+    },
     "dependencies": {
         "express": "^5.2.1"
     }
