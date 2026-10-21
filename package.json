@@ -1,18 +1,14 @@
 {
-    "name": "gefina",
-    "description": "Sistema de gestão de contas a receber.",
-    "version": "0.0.0",
-    "author": "Régis Pinheiro",
-    "type": "module",
-    "scripts": {
-        "dev": "node --watch ./server.ts",
-        "check": "tsc"
-    },
-    "dependencies": {
-        "express": "^5.2.1"
-    },
-    "devDependencies": {
-        "@types/express": "^5.0.6",
-        "typescript": "^7.0.2"
-    }
+  "name": "gefina",
+  "description": "Sistema de gestão de contas a receber.",
+  "version": "0.0.0",
+  "author": "Régis Pinheiro",
+  "scripts": {
+    "check": "biome check ./",
+    "fix": "biome check --write ./",
+    "fix:unsafe": "biome check --write --unsafe ./"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.6.2"
+  }
 }
